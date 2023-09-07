@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="check-record.css" />
+  </head>
+  <body>
+    <div id="attendance-records" class="attendance-records hidden">
+      <h2>Attendance Records</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Subject</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="attendance-records-list">
+          <!-- Records will be dynamically added here -->
+          <div class="data">
+            <tr>
+              <td>25/8/23</td>
+              <td>Computer Networks</td>
+              <td>present</td>
+            </tr>
+            <tr>
+              <td>25/8/23</td>
+              <td>Python For Data Science</td>
+              <td>present</td>
+            </tr>
+            <tr>
+              <td>25/8/23</td>
+              <td>Software Engineering</td>
+              <td>present</td>
+            </tr>
+            <tr>
+              <td>26/8/23</td>
+              <td>Python For Data Science</td>
+              <td>Absent</td>
+            </tr>
+            <tr>
+              <td>26/8/23</td>
+              <td>Analysis And Design Of Algorithm</td>
+              <td>present</td>
+            </tr>
+            <tr>
+              <td>26/8/23</td>
+              <td>Software Engineering</td>
+              <td>present</td>
+            </tr>
+          </div>
+        </tbody>
+      </table>
+    </div>
+    <script src="qr-code.js"></script>
+  </body>
+</html>
